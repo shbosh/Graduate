@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/benjaminong/.npm-packages/bin/npm',
+1 verbose cli   'uninstall',
+1 verbose cli   'cordova',
+1 verbose cli   '-g' ]
+2 info using npm@2.11.0
+3 info using node@v4.2.3
+4 verbose unbuild lib/node_modules/cordova
+5 info preuninstall cordova@5.4.1
+6 info uninstall cordova@5.4.1
+7 verbose unbuild rmStuff cordova@5.4.1 from /Users/benjaminong/.npm-packages/lib/node_modules
+8 silly gentlyRm /Users/benjaminong/.npm-packages/bin/cordova is being gently removed
+9 silly gentlyRm verifying /Users/benjaminong/.npm-packages is an npm working directory
+10 silly gentlyRm containing path /Users/benjaminong/.npm-packages is under npm's control, in /Users/benjaminong/.npm-packages
+11 silly gentlyRm deletion target /Users/benjaminong/.npm-packages/bin/cordova is under /Users/benjaminong/.npm-packages
+12 verbose gentlyRm vacuuming from /Users/benjaminong/.npm-packages/bin/cordova up to /Users/benjaminong/.npm-packages
+13 silly vacuum-fs removing /Users/benjaminong/.npm-packages/bin/cordova
+14 silly vacuum-fs quitting because other entries in /Users/benjaminong/.npm-packages/bin
+15 info postuninstall cordova@5.4.1
+16 silly gentlyRm /Users/benjaminong/.npm-packages/lib/node_modules/cordova is being purged from base /Users/benjaminong/.npm-packages
+17 verbose gentlyRm don't care about contents; nuking /Users/benjaminong/.npm-packages/lib/node_modules/cordova
+18 silly vacuum-fs purging /Users/benjaminong/.npm-packages/lib/node_modules/cordova
+19 verbose stack Error: EACCES: permission denied, unlink '/Users/benjaminong/.npm-packages/lib/node_modules/cordova/.ratignore'
+19 verbose stack     at Error (native)
+20 verbose cwd /Users/benjaminong/Graduate
+21 error Darwin 15.0.0
+22 error argv "/usr/local/bin/node" "/Users/benjaminong/.npm-packages/bin/npm" "uninstall" "cordova" "-g"
+23 error node v4.2.3
+24 error npm  v2.11.0
+25 error path /Users/benjaminong/.npm-packages/lib/node_modules/cordova/.ratignore
+26 error code EACCES
+27 error errno -13
+28 error syscall unlink
+29 error Error: EACCES: permission denied, unlink '/Users/benjaminong/.npm-packages/lib/node_modules/cordova/.ratignore'
+29 error     at Error (native)
+29 error  { [Error: EACCES: permission denied, unlink '/Users/benjaminong/.npm-packages/lib/node_modules/cordova/.ratignore']
+29 error   errno: -13,
+29 error   code: 'EACCES',
+29 error   syscall: 'unlink',
+29 error   path: '/Users/benjaminong/.npm-packages/lib/node_modules/cordova/.ratignore' }
+30 error Please try running this command again as root/Administrator.
+31 verbose exit [ -13, true ]
